@@ -27,5 +27,64 @@ header {
 
   .título-2 {
     color:black;
-    margin: center;
+    justify-content: center;
   }
+
+  .paragrafo-1{
+    margin-left:20px;
+    justify-content: center;
+}
+
+.titulo-3 {
+  color:black;
+  justify-content:center;
+  padding:40px;
+}
+
+.paragrafo-2 {
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.arduino {
+  wit: 40%;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.protoboard {
+  width: 40px;
+  margin-right: 50px;
+}
+
+.multimetro {
+  width: 40%;
+  margin-right: 30px;
+}
+
+.capacitor {
+  width: 40%;
+  padding: 45px;
+  margin-left: 30px;
+  margin-right: 50px; 
+}
+
+.sensor-LDR {
+  width: 40%;
+  margin-left: 50px;
+}
+
+.lED {
+  width: 40%;
+  margin-right: 50px;
+}
+
+footer {
+  background-color: black;
+  color:white;
+}
+
+p {
+  justify-content: center;
+  padding: 20px;
+}
