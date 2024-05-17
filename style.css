@@ -80,9 +80,11 @@ header {
   margin-right: 50px;
 }
 
-footer {
+.footer {
   background-color: black;
   color:white;
+  text-align: center;
+  padding 10px
 }
 
 p {
