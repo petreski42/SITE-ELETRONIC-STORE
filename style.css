@@ -1,103 +1,130 @@
-header {
-    background-color: black;
-    color: #ffffff;
+[08:27, 5/24/2024] Jean (Escola): der {
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
- .cabecalho {
-       color:white
-      margin: center;
+.cabecalho {
+  color:white;
+  text-align: center;
+  display: flex;
+  margin-left: 660px;
 }
 
- .cabecalho-lista-1{
-  color:white
-  margin-left:40px; /*alinhamento à esquerda*/
-  padding: 20px; /* espaçamento vertical */
- }
+.cabecalho-lista-1 {
+   /* color: white;
+  margin-left: 40px;
+  padding: 20px;*/    
+  display:inline-block;
+  justify-content: center;
+  color:white;
+  margin-left: 260px; /* alinhamento à esquerda */
+  padding: 40px; /* espaçamento vertical */
+} 
 
- .cabecalho-lista-2{
-    color:white
-    margin-left: 40px;
-    padding: 20px;
- }
+.cabecalho-lista-2 {
+ /* color: white;
+  margin-left: 40px;
+  padding: 20px;*/
+  display:inline-block;
+  justify-content: center;
+  color:white;
+  margin-left: 270px; /* alinhamento à esquerda */
+  padding: 35px; /* espaçamento vertical */
+}
 
- body {
-     background-color:rgb(252, 252, 173);
-     color:black
-     font-family:'poppings','sans-serif';
- }
+body {
+  background-color: rgb(252, 252, 173);
+  color:black;
+  font-family: 'Poppins', sans-serif;
+}
 
-  .título-2 {
-    color:black;
-    justify-content: center;
-  }
+.titulo-2 {
+  color:black;
+  justify-content: center;
+  display:flex;
+}
 
-  .paragrafo-1{
-    margin-left:20px;
-    justify-content: center;
+/PARAMOS AQUI/
+.paragrafo-1 {
+  text-align: center;
+  justify-content: center;
 }
 
 .titulo-3 {
   color:black;
-  justify-content:center;
-  padding:40px;
+  justify-content: center;
+  display: flex;
 }
 
 .paragrafo-2 {
-  margin-left: 20px;
+  text-align: center;
   justify-content: center;
 }
 
 .arduino {
-  wit: 40%;
-  margin-left: 30px;
-  margin-right: 50px;
+  width: 25%;
+  display: inline;
+  padding:30px;
 }
 
 .protoboard {
-  width: 40px;
-  margin-right: 50px;
+  width: 25%;
+  display: inline;
+  padding: 120px;
 }
 
 .multimetro {
-  width: 40%;
+  width: 25%;
   margin-right: 30px;
 }
 
 .capacitor {
-  width: 40%;
-  padding: 45px;
-  margin-left: 30px;
-  margin-right: 50px; 
+  width: 15%;
+  display: inline;
+  padding: 30px;
+  margin-left: 60px;
+  margin-right: 40px; 
 }
 
 .sensor-LDR {
-  width: 40%;
-  margin-left: 50px;
+  width: 20%;
+  display: inline;
+  padding: 20px;
+  margin-left: 150px;
 }
 
-.lED {
-  width: 40%;
-  margin-right: 50px;
+.LED {
+  width: 20%;
+  display: inline;
+  padding: 20px;
+  margin-left: 140px;
 }
 
-.footer {
+footer{
   background-color: black;
-  color:white;
+  color: white;
   text-align: center;
-  padding 10px
+  padding: 10px;
 }
 
 p {
-  justify-content:center;
+  justify-content: center;
   padding: 20px;
 }
-.preco-1 whiti 25%
-display
- <inline-b<
-/inline-block>
 
-.preco-2
-whiti 25%
-display 
- <inline-b<
-/inline-block>
+.preco-1 {
+  width: 25%;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.preco-2 {
+  width: 25%;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 50px;
+  text-align: center;
+}
+
